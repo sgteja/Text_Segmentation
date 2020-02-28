@@ -135,7 +135,7 @@ def getTextOverlay(input_image, method=1, showSteps=False):
 
 if __name__ == '__main__':
     image = cv2.imread('simpsons_frame0.png')
-    output = getTextOverlay(image, method=0, showSteps=True)
+    output = getTextOverlay(image, method=1, showSteps=False)
     cv2.imwrite('simpons_text.png', output)
 #####################
 
